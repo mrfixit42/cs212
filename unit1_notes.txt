@@ -1,0 +1,17 @@
+===== CS 212 ====
+
+def ss(nums):
+	total = 0
+	for i in nums:
+		total = total + i**2
+	return total
+
+def ss(nums):
+	return sum(x**2 for x in nums)
+
+--- Write a Poker Program --
+
+hand => rank
+	card
+		rank:suit
+
